@@ -1,0 +1,130 @@
+body {
+    height: 100%;
+    background-color: #e4e4e4;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    background-color: #e4e4e4;
+    width: 933px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 2px;
+    border-bottom-style: groove;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 5px;
+    letter-spacing: 1.2px;
+}
+
+#covid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 400px;
+    margin-top: 20px;
+}
+
+#confirmados {
+    height: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    background-color: #ad1818e8;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #e0e6eb;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all .3s;
+}
+
+#confirmados h1 {
+    font-size: 46px;
+    letter-spacing: 1.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#confirmados h2 {
+    font-size: 22px;
+    color: #e0e6eb;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e0e6eb;
+    border-bottom-right-radius: 10px;
+}
+
+#confirmados:hover {
+    opacity: .8;
+}
+
+
+#recuperados {
+    height: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    background-color: #149474;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #e0e6eb;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all .3s;
+}
+
+#recuperados h1 {
+    font-size: 46px;
+    letter-spacing: 1.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#recuperados h2 {
+    font-size: 22px;
+    color: #e0e6eb;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e0e6eb;
+    border-bottom-right-radius: 10px;
+}
+
+#recuperados:hover {
+    opacity: .8;
+}
+
+
+#mortos {
+    height: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    background-color: #3819e9;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #e0e6eb;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#mortos h1 {
+    font-size: 46px;
+    letter-spacing: 1.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mortos h2 {
+    font-size: 22px;
+    color: #e0e6eb;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e0e6eb;
+    border-bottom-right-radius: 10px;
+}
+
+#mortos:hover {
+    opacity: .8;
+}
+
